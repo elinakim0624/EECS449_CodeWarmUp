@@ -26,6 +26,7 @@ node faq_root:cai_state {
         visitor.response = "I can answer a variety of FAQs related to Tesla. What can I help you with?";
     }
 }
+
 node faq_state:cai_state {
     has question;
     has answer;
